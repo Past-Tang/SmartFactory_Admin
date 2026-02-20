@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 240" fill="none">
+  <rect width="680" height="240" rx="16" fill="#0d1117"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161b22" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="680" height="240" fill="url(#grid)"/>
+  
+  <!-- Factory + gear icon -->
+  <g transform="translate(60, 40)">
+    <rect x="5" y="5" width="110" height="110" rx="14" fill="#1a2332" stroke="#42b883" stroke-width="2.5"/>
+    <!-- Factory shape -->
+    <path d="M20 90 L20 50 L35 60 L35 45 L50 55 L50 40 L65 50 L65 90 Z" fill="#42b883" opacity="0.3" stroke="#42b883" stroke-width="1.5"/>
+    <!-- Chimney -->
+    <rect x="25" y="35" width="8" height="15" fill="#42b883" opacity="0.4"/>
+    <!-- Gear -->
+    <circle cx="82" cy="55" r="18" fill="none" stroke="#42b883" stroke-width="2"/>
+    <circle cx="82" cy="55" r="8" fill="none" stroke="#42b883" stroke-width="2"/>
+    <!-- Gear teeth -->
+    <line x1="82" y1="35" x2="82" y2="40" stroke="#42b883" stroke-width="3" stroke-linecap="round"/>
+    <line x1="82" y1="70" x2="82" y2="75" stroke="#42b883" stroke-width="3" stroke-linecap="round"/>
+    <line x1="62" y1="55" x2="67" y2="55" stroke="#42b883" stroke-width="3" stroke-linecap="round"/>
+    <line x1="97" y1="55" x2="102" y2="55" stroke="#42b883" stroke-width="3" stroke-linecap="round"/>
+    <!-- Shield (admin/permission) -->
+    <path d="M75 78 L75 95 Q75 105 85 108 Q95 105 95 95 L95 78 Z" fill="none" stroke="#42b883" stroke-width="1.5" opacity="0.6"/>
+    <path d="M82 88 L85 92 L92 83" stroke="#42b883" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="210" y="80" font-family="'Segoe UI', system-ui, sans-serif" font-size="42" fill="#e6edf3" font-weight="700" letter-spacing="-1">SmartFactory</text>
+  <text x="210" y="130" font-family="'Segoe UI', system-ui, sans-serif" font-size="42" fill="#42b883" font-weight="700" letter-spacing="-1">Admin</text>
+  
+  <text x="212" y="163" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#7d8590">智工慧厂权限管理 | uni-app | 多端适配</text>
+  
+  <g transform="translate(212, 180)">
+    <rect x="0" y="0" width="68" height="22" rx="11" fill="#1a2332" stroke="#42b883" stroke-width="1"/>
+    <text x="34" y="15" font-family="monospace" font-size="10" fill="#42b883" text-anchor="middle">Vue.js</text>
+    <rect x="78" y="0" width="72" height="22" rx="11" fill="#1a2332" stroke="#58a6ff" stroke-width="1"/>
+    <text x="114" y="15" font-family="monospace" font-size="10" fill="#58a6ff" text-anchor="middle">uni-app</text>
+    <rect x="160" y="0" width="72" height="22" rx="11" fill="#1a2332" stroke="#f0883e" stroke-width="1"/>
+    <text x="196" y="15" font-family="monospace" font-size="10" fill="#f0883e" text-anchor="middle">uView</text>
+    <rect x="242" y="0" width="62" height="22" rx="11" fill="#1a2332" stroke="#a371f7" stroke-width="1"/>
+    <text x="273" y="15" font-family="monospace" font-size="10" fill="#a371f7" text-anchor="middle">Vuex</text>
+  </g>
+</svg>
